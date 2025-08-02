@@ -1,30 +1,45 @@
-# Modern portfolio website
+# VibeCode-Portfolio
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+A modern portfolio website built with Next.js and Tailwind CSS.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/alys-projects-059fb6f2/v0-modern-portfolio-website)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/olGPnOgl1nj)
+## 🚀 Deployment
 
-## Overview
+This project is configured to deploy to GitHub Pages automatically.
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+### Local Development
 
-## Deployment
+```bash
+npm install
+npm run dev
+```
 
-Your project is live at:
+### Build for Production
 
-**[https://vercel.com/alys-projects-059fb6f2/v0-modern-portfolio-website](https://vercel.com/alys-projects-059fb6f2/v0-modern-portfolio-website)**
+```bash
+npm run build
+```
 
-## Build your app
+### Manual Deployment
 
-Continue building your app on:
+1. Push your changes to the `main` branch
+2. GitHub Actions will automatically build and deploy to GitHub Pages
+3. Your site will be available at: https://iamali-stack.github.io/VibeCode-Portfolio/
 
-**[https://v0.dev/chat/projects/olGPnOgl1nj](https://v0.dev/chat/projects/olGPnOgl1nj)**
+## 📁 Project Structure
 
-## How It Works
+- `app/` - Next.js app directory with pages
+- `components/` - Reusable React components
+- `public/` - Static assets
+- `styles/` - Global styles
 
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+## 🛠️ Technologies Used
+
+- Next.js 14
+- React 18
+- TypeScript
+- Tailwind CSS
+- Radix UI Components
+
+## 📝 License
+
+MIT
